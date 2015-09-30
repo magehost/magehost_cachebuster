@@ -1,0 +1,9 @@
+## MageHost_CacheBuster Extension
+
+# ---- Module enable XML
+# Magento Global Config        - File          - modules/MageHost_CacheBuster.xml
+app/etc/modules/MageHost_CacheBuster.xml                              app/etc/modules/MageHost_CacheBuster.xml
+
+# ---- Extension code dir
+# Magento Community Module     - Recursive Dir - MageHost/CacheBuster
+app/code/community/MageHost/CacheBuster/                              app/code/community/MageHost/CacheBuster/

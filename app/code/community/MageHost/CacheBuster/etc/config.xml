@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MageHost_CacheBuster>
+            <version>0.1.0</version>
+        </MageHost_CacheBuster>
+    </modules>
+    <global>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html_head>MageHost_CacheBuster_Block_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+    <default>
+        <web>
+            <cache_buster>
+                <active>1</active>
+                <param>cb</param>
+                <value>1</value>
+            </cache_buster>
+        </web>
+    </default>
+</config>
+

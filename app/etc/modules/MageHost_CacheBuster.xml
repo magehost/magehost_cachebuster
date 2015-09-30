@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageHost_CacheBuster>
+            <active>true</active>
+            <codePool>community</codePool>
+        </MageHost_CacheBuster>
+    </modules>
+</config>
