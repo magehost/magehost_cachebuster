@@ -1,0 +1,23 @@
+{
+   "name": "magehost/magehost_cachebuster",
+    "license": "GPL-3.0",
+    "type": "magento-module",
+    "version": "0.2.0",
+    "description":"MageHost_CacheBuster",
+    "repositories":[
+    ],
+    "require":{
+    },
+    "authors":[
+        {
+            "name":"MagentoHosting.pro - Jeroen Vermeulen",
+            "email":"info@magehost.pro"
+        }
+    ], 
+    "extra": {
+        "map": [
+            ["app/etc/modules/MageHost_CacheBuster.xml", "app/etc/modules/MageHost_CacheBuster.xml"],
+            ["app/code/community/MageHost/CacheBuster/", "app/code/community/MageHost/CacheBuster/"]
+        ]
+    }
+}
