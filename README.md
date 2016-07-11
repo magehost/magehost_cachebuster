@@ -7,4 +7,4 @@ Fix for JS and CSS files being cached in visitor's browser cache.
 
 `System > Configuration > GENERAL > MageHost.pro: Cache Buster for JS and CSS`
 
-![Config Screen](https://raw.githubusercontent.com/magehost/magehost-cachebuster/master/docs/config.png)
+![Config Screen](https://raw.githubusercontent.com/magehost/MageHost_CacheBuster/master/docs/config.png)
