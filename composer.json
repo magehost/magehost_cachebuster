@@ -1,23 +1,16 @@
 {
-   "name": "magehost/magehost_cachebuster",
-    "license": "GPL-3.0",
-    "type": "magento-module",
-    "version": "0.2.0",
-    "description":"MageHost_CacheBuster",
-    "repositories":[
-    ],
-    "require":{
-    },
-    "authors":[
-        {
-            "name":"MagentoHosting.pro - Jeroen Vermeulen",
-            "email":"info@magehost.pro"
-        }
-    ], 
-    "extra": {
-        "map": [
-            ["app/etc/modules/MageHost_CacheBuster.xml", "app/etc/modules/MageHost_CacheBuster.xml"],
-            ["app/code/community/MageHost/CacheBuster/", "app/code/community/MageHost/CacheBuster/"]
-        ]
+  "name":"magehost/magehost_cachebuster",
+  "type":"magento-module",
+  "license":"GPL-3.0",
+  "homepage":"https://github.com/magehost/magehost_cachebuster",
+  "description":"MageHost_CacheBuster: Fix for JS and CSS files being cached in visitor's browser cache.",
+  "authors":[
+    {
+      "name":"MagentoHosting.pro - Jeroen Vermeulen",
+      "email":"jeroen@magehost.pro"
     }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  }
 }
